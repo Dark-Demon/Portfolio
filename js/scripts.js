@@ -1,7 +1,5 @@
 
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
+
 function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("fullpage").style.display = "block";
@@ -64,4 +62,7 @@ function showPage() {
             }
 		});
 
+}
+function myFunction() {
+    myVar = setTimeout(showPage, 2500);
 }
